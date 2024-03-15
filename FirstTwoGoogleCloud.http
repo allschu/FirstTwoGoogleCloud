@@ -1,0 +1,6 @@
+@FirstTwoGoogleCloud_HostAddress = http://localhost:5291
+
+GET {{FirstTwoGoogleCloud_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
