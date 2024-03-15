@@ -8,6 +8,6 @@ steps:
 # Deploy container image to Cloud Run
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   entrypoint: gcloud
-  args: ['run', 'deploy', 'webapiforgooglecloud', '--image', 'gcr.io/testblazorapp-417308/webapiforgooglecloud', '--region', 'europe-west4']
+  args: ['run', 'deploy', 'webapiforgooglecloud', '--image', 'gcr.io/testblazorapp-417308/webapiforgooglecloud', '--region', 'europe-west4', '--allow-unauthenticated']
 images:
 - gcr.io/testblazorapp-417308/webapiforgooglecloud
